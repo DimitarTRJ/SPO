@@ -1,0 +1,20 @@
+------------------------------------------------------ 
+=================== USE MANUAL =======================
+------------------------------------------------------
+
+1. In test.obj add the object code of the program.
+
+2. Open a command line interface and navigate to project root.
+
+3. Run (CMD):
+           g++ -std=c++17 ^
+    More?  src\main.cpp ^
+    More?  src\Machine.cpp ^
+    More?  src\Device.cpp ^
+    More?  src\InputDevice.cpp ^
+    More?  src\OutputDevice.cpp ^
+    More?  src\FileDevice.cpp ^
+    More?  -I includes ^
+    More?  -o sim.exe
+
+4.  sim.exe
